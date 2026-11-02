@@ -1,5 +1,5 @@
 (() => {
-  // ns-hugo-imp:C:\Users\adnim\Desktop\yjd\deepseek\me\blog-hugo\themes\stack\assets\ts\menu.ts
+  // ns-hugo-imp:E:\yjd\blog-hugo\hugo_extended_0.169.0_windows-amd64\my-new-blog\themes\hugo-theme-stack\assets\ts\menu.ts
   var slideUp = (target, duration = 500) => {
     target.classList.add("transiting");
     target.style.transitionProperty = "height, margin, padding";
@@ -71,7 +71,7 @@
     }
   }
 
-  // ns-hugo-imp:C:\Users\adnim\Desktop\yjd\deepseek\me\blog-hugo\themes\stack\assets\ts\createElement.ts
+  // ns-hugo-imp:E:\yjd\blog-hugo\hugo_extended_0.169.0_windows-amd64\my-new-blog\themes\hugo-theme-stack\assets\ts\createElement.ts
   function createElement(tag, attrs, children) {
     var element = document.createElement(tag);
     for (let name in attrs) {
@@ -98,7 +98,7 @@
   }
   var createElement_default = createElement;
 
-  // ns-hugo-imp:C:\Users\adnim\Desktop\yjd\deepseek\me\blog-hugo\themes\stack\assets\ts\colorScheme.ts
+  // ns-hugo-imp:E:\yjd\blog-hugo\hugo_extended_0.169.0_windows-amd64\my-new-blog\themes\hugo-theme-stack\assets\ts\colorScheme.ts
   var StackColorScheme = class {
     localStorageKey = "StackColorScheme";
     currentScheme;
@@ -168,7 +168,7 @@
   };
   var colorScheme_default = StackColorScheme;
 
-  // ns-hugo-imp:C:\Users\adnim\Desktop\yjd\deepseek\me\blog-hugo\themes\stack\assets\ts\scrollspy.ts
+  // ns-hugo-imp:E:\yjd\blog-hugo\hugo_extended_0.169.0_windows-amd64\my-new-blog\themes\hugo-theme-stack\assets\ts\scrollspy.ts
   function debounced(func) {
     let timeout;
     return () => {
@@ -272,7 +272,7 @@
     window.addEventListener("resize", debounced(resizeHandler));
   }
 
-  // ns-hugo-imp:C:\Users\adnim\Desktop\yjd\deepseek\me\blog-hugo\themes\stack\assets\ts\smoothAnchors.ts
+  // ns-hugo-imp:E:\yjd\blog-hugo\hugo_extended_0.169.0_windows-amd64\my-new-blog\themes\hugo-theme-stack\assets\ts\smoothAnchors.ts
   var anchorLinksQuery = "a[href]";
   function setupSmoothAnchors() {
     document.querySelectorAll(anchorLinksQuery).forEach((aElement) => {
@@ -292,7 +292,7 @@
     });
   }
 
-  // ns-hugo-imp:C:\Users\adnim\Desktop\yjd\deepseek\me\blog-hugo\themes\stack\assets\ts\pagination.ts
+  // ns-hugo-imp:E:\yjd\blog-hugo\hugo_extended_0.169.0_windows-amd64\my-new-blog\themes\hugo-theme-stack\assets\ts\pagination.ts
   function setupPaginationJump() {
     const triggers = document.querySelectorAll(".pagination-jump-trigger");
     const dialog = document.getElementById("pagination-jump-dialog");
@@ -371,10 +371,10 @@
     });
   }
 
-  // ns-hugo-params:C:\Users\adnim\Desktop\yjd\deepseek\me\blog-hugo\themes\stack\assets\ts\code-copy.ts
+  // ns-hugo-params:E:\yjd\blog-hugo\hugo_extended_0.169.0_windows-amd64\my-new-blog\themes\hugo-theme-stack\assets\ts\code-copy.ts
   var codeblock = { copied: "\u5DF2\u590D\u5236\uFF01", copy: "\u590D\u5236" };
 
-  // ns-hugo-imp:C:\Users\adnim\Desktop\yjd\deepseek\me\blog-hugo\themes\stack\assets\ts\code-copy.ts
+  // ns-hugo-imp:E:\yjd\blog-hugo\hugo_extended_0.169.0_windows-amd64\my-new-blog\themes\hugo-theme-stack\assets\ts\code-copy.ts
   function setupCodeCopy() {
     const highlights = document.querySelectorAll(".article-content div.highlight");
     const copyText = codeblock.copy, copiedText = codeblock.copied;
